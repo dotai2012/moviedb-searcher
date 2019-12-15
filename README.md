@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# MovieDB Searcher
+
+This is a simple web-app that help you manage your favorite films
+
+Feel free to test it with the following command
+
++ `npm run start`
++ `yarn start` (If you use Yarn)
+
+Or check the others commands below
+
 ## Available Scripts
 
 In the project directory, you can run:

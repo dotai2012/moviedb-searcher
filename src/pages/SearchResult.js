@@ -18,7 +18,7 @@ function SearchResult() {
       <div className="row mb-3">
         <div className="col-12">
           <h1 className="display-5 text-center">
-            Terms:
+            Search &gt;
             {' '}
             {terms}
           </h1>

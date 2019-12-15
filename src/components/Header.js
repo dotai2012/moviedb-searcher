@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import clsx from 'clsx';
 import { withRouter } from 'react-router';
@@ -9,8 +9,8 @@ const linkItems = [
   { link: '/', text: 'Home' },
   { link: '/favorite', text: 'My Favorites' },
   { link: '/rate', text: 'My Rates' },
-  { link: '/about', text: 'About' },
   { link: '/discover', text: 'Discover' },
+  { link: '/about', text: 'About' },
 ];
 
 function Header({ location: { pathname } }) {
