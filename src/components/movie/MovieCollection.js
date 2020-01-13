@@ -6,7 +6,7 @@ import { fetchMoviesCollection } from '../../actions';
 import MovieList from './MovieList';
 import Search from '../Search';
 
-function PersonalCollection({ collectionType }) {
+function MovieCollection({ collectionType }) {
   const { state: { movies }, dispatch } = useContext(AppProvider);
 
   const movieCollection = useMemo(() => getCollection('movies').filter(({ like, rating }) => {
@@ -65,4 +65,4 @@ function PersonalCollection({ collectionType }) {
   );
 }
 
-export default PersonalCollection;
+export default MovieCollection;
